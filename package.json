@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "debug": "^4.3.1",
+    "express": "^4.17.1",
+    "helmet": "^4.5.0",
+    "mongoose": "^5.12.7",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "name": "random-quote-generator-microservice",
+  "version": "1.0.0",
+  "description": "a free random quote generator microservice for frontend novice to use",
+  "main": "index.js",
+  "author": "Buykunmi",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
