@@ -44,7 +44,9 @@ async function shuffleArray(arr) {
     .sort((a, b) => a.sort - b.sort)
     .map((a) => a.value);
 }
-
+app.get("/", (req, res) => {
+  res.render("home");
+});
 app.get("/api/quotes", (req, res) => {
   startupDebugger(quotesJSON);
   //   const result = ;
